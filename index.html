@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link preload="true" rel="stylesheet" href="https://fonts.googleapis.com/css?family=%0ACaveat%7CSource%2BCode%2BPro%7CDancing%2BScript%7CImpact%7CRighteous%7CPacifico%7CPhudu%7CAbril%2BFatface%7COrbitron%7CImbue%26display%3Dswap" type="text/css" media="all"/>
     <link rel="stylesheet" href="style.css">
-    <title>Giorgia Missinato</title>
+    <title>Cambio Automatico di Colore, Font e Sfondo</title>
     <style>
         body {
             margin: 0;
@@ -36,17 +35,11 @@
         // Funzione per generare un font casuale
         function getRandomFont() {
             const fonts = [
-                'Caveat, serif',
+                'Arial, sans-serif',
+                'Verdana, sans-serif',
+                'Montserrat, serif',
                 'Helvetica, serif',
-                'Source Code Pro, serif',
-                'Dancing Script, serif',
-                'Impact, serif',
-                'Righteous, serif',
-                'Pacifico, serif',
-                'Phudu, serif',
-                'Abril Fatface, serif',
-                'Orbitron, serif',
-                'Imbue, serif'
+                'Impact, monospace',
             ];
             return fonts[Math.floor(Math.random() * fonts.length)];
         }
